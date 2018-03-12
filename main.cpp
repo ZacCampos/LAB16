@@ -109,7 +109,7 @@ int main()
 		}
 		else
 		{
-			cout << "You should serve " << name << "Skittles and beer.";
+			cout << "You should serve " << name << " Skittles and beer.";
 		}
 	}
 	else
@@ -127,7 +127,7 @@ int main()
 		}
 		else
 		{
-			cout << "You should serve " << name << "Skittles and soda.";
+			cout << "You should serve " << name << " Skittles and soda.";
 		}
 	}
 
