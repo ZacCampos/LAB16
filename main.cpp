@@ -81,12 +81,16 @@ int main()
 	chocPreference = toupper(chocPreference);
 	cin.ignore(10000, '\n');
 
-	cout << setw(30) << "Do they like nuts (Y/N)?";
-	cin  >> nutPreference;
-	nutPreference = toupper(nutPreference);
-	cin.ignore(10000, '\n');
+	if (chocPreference == 'Y')
+	{
+		cout << setw(30) << "Do they like nuts (Y/N)?";
+		cin  >> nutPreference;
+		nutPreference = toupper(nutPreference);
+		cin.ignore(10000, '\n');
+	}
 
 	cout << endl;
+
 	/***************************************************************************
 	 * PROCESSING and OUTPUT - Processes what food and drink should be served.
 	 **************************************************************************/
@@ -129,3 +133,4 @@ int main()
 
 	return 0;
 }
+
